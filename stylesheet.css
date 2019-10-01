@@ -1,0 +1,21 @@
+.bodyContent{
+    display: flex;
+}
+
+.bodyContent ul{
+    margin-left: 20px;
+}
+
+.sadPenguin {
+    margin: auto;
+    padding: 30px;
+    display: block
+}
+h3 {
+    text-align: center;
+}
+
+#loader {
+    display: block;
+    margin: auto;
+}

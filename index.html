@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes API Tutorial</title>
+    <link rel="shortcut icon" href="http://findicons.com/files/icons/2770/ios_7_icons/512/music.png">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>​
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <form>
+                <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Search Your Favorite Artist</h1>
+ 
+        <img id="loader" src="https://66.media.tumblr.com/f4da69443e360a983f4f86ff0077e01d/tumblr_or78i984C41qc4uvwo1_500.gif">
+
+        <h3>
+            New songs
+        </h3>
+        <ul id="songs" class="collapsible">
+        </ul>
+        ​
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
